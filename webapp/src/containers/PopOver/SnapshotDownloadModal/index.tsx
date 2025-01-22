@@ -54,18 +54,6 @@ const SnapshotDownloadModal: React.FunctionComponent = () => {
       label: 'Europe',
       value: SNAPSHOT_EU,
     },
-    {
-      label: 'Asia',
-      value: SNAPSHOT_ASIA,
-    },
-    {
-      label: 'US',
-      value: SNAPSHOT_US,
-    },
-    {
-      label: 'Australia',
-      value: SNAPSHOT_AU,
-    },
   ];
 
   const [snapshotURI, setSnapshotURI] = useState(snapshotLinks[0]);
