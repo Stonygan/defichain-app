@@ -24,9 +24,6 @@ import { DownloadSnapshotSteps } from '../types';
 import {
   SNAPSHOT_PROVIDER,
   SNAPSHOT_EU,
-  SNAPSHOT_ASIA,
-  SNAPSHOT_US,
-  SNAPSHOT_AU,
 } from '@defi_types/snapshot';
 import {
   openDownloadSnapshotModal,
